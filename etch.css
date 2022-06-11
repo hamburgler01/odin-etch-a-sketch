@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+    font-size: small;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    justify-content: space-between;
+}
+
+#square {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    background-color: white;
+}
+
+.divrow {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header {
+    font-size: 4em;
+    text-align: center;
+    padding: 50px;
+}
+
+#button {
+    border-radius: 1em;
+    background-color:beige;
+    color: blue;
+}
